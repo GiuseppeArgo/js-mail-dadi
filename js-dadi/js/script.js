@@ -10,7 +10,11 @@ console.log(computerNum, typeof computerNum);
 
 // LOGICA 
 
-// Creo la varibile result
+// Creo la varibile result collegata ad un bottone
+
+const generaRisultato = document.getElementById("genera-risultato")
+
+generaRisultato.addEventListener("click", function() {
 
 let result = ""; //stringa
 
@@ -24,3 +28,12 @@ if (playerNum > computerNum) {
     console.log("Pareggio");
     result = "Pareggio"
 }
+
+document.getElementById("player").innerHTML = `Il tuo numero è ${playerNum}`
+
+document.getElementById("computer").innerHTML = `Il numero del computer è ${computerNum}`
+
+
+document.getElementById("game-result").innerHTML = result;
+
+});

@@ -4,23 +4,23 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 1. INPUT 
 
- - [ ] Creare variabile numero giocatore
+ - [x] Creare variabile numero giocatore
 
- - [ ] Creare variabile numero computer
+ - [x] Creare variabile numero computer
 
 2. LOGICA 
 
- - [ ] Decidere condizioni di vittoria creando la variabile result
+ - [x] Decidere condizioni di vittoria creando la variabile result
 
     Se numero giocatore è maggiore di numero computer numero giocatore vince
         Altrimenti se numero computer è maggiore numero computer vince 
         Altrimenti Pareggiano
 
- - [ ] Collego l'evento ad un pulsante per generare i numeri
+ - [x] Collego l'evento ad un pulsante per generare i numeri
 
 
  
 
 3. OUTPUT
 
- - [ ] Mostro in pagina il risultato
+ - [x] Mostro in pagina il risultato
