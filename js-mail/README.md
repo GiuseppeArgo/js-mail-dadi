@@ -6,7 +6,7 @@ stampa un messaggio appropriato sull’esito del controllo.
 1. INPUT 
 
  - [x] Creo un array con le mail autorizzate all'accesso
- - [x] Creo una variabile d'appoggio con valore "falso" 
+ - [x] Creo una variabile flag con valore "falso" 
  - [x] Assegno ad un bottone un evento in cui viene verificata la mail
 
  2. LOGICA
