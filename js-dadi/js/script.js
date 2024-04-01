@@ -1,3 +1,5 @@
+"use strict";
+
 // INPUT
 
 // Creo le variabili per il numero giocatore e il numero computer
